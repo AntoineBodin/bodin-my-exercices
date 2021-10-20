@@ -1,5 +1,5 @@
 export const my_size_alpha = (str) => {
-  if (typeof(str) != String) {
+  if (typeof(str) != "string") {
     return 0;
   }
   var i = 0;
@@ -10,5 +10,5 @@ export const my_size_alpha = (str) => {
 }
 
 /*
-console.log(my_size_alpha(8));
+console.log(my_size_alpha(0));
 */
