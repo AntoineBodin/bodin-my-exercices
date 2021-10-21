@@ -1,5 +1,5 @@
 export const my_sum = (a, b) => {
-  if (a === null || b === null || a === undefined || b === undefined) {
+  if (a === null || b === null || a === undefined || b === undefined || typeof a != "number" || typeof b != "number") {
     return 0;
   }
   return a + b;
