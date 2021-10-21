@@ -1,4 +1,4 @@
-import { my_size_alpha } from "./exercise-4.js";
+import { my_size_alpha } from "./exercice-4.js";
 
 export const my_array_alpha = (str) => {
   var result = [];
